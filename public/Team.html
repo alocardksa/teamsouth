@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .accordion {
+            background-color: #0C1A9B;
+            cursor: pointer;
+            padding: 4px;
+            width: 30%;
+            text-align: left;
+            font-size: 15px;
+            transition: 0.8s;
+            text-align: center
+        }
+        
+        .accordion {
+            color: rgb(255, 255, 255);
+            text-decoration-style: solid;
+            height: 40px
+        }
+        
+        .active,
+        .accordion:hover {
+            background-color: rgb(228, 64, 15);
+        }
+        
+        .owl-page {
+            background-color: aliceblue;
+        }
+        
+        .panel {
+            padding: 0 30px;
+            display: none;
+            overflow: hidden;
+        }
+    </style>
+
+    <title>DINGO SMART INNOVATION</title>
+
+    <link rel="shortcut icon" href="./logo.png">
+    </link>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+
+    <link rel="stylesheet" href="css/tooplate-style.css">
+
+</head>
+
+<body>
+        <div id="root"></div>
+        <div class="preloader">
+                <div class="spinner">
+                    <span class="sk-inner-circle"></span>
+                </div>
+            </div>
+        <div style="background-color: rgb(23, 36, 153) "!important; class="navbar custom-navbar navbar-fixed-top"
+        role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                 <span class="icon icon-bar"></span>
+                                 <span class="icon icon-bar"></span>
+                                 <span class="icon icon-bar"></span>
+                            </button>
+        
+                        <a href="/Team.html" class="navbar-brand"><em>Team-Rostopher</em></a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="/main.html" class="smoothScroll">Home</a></li>
+                            <li><a href="https://team-south-acitivity.herokuapp.com/" class="smoothScroll">Activity List</a></li>
+                            <li><a href="/U.html" class="smoothScroll">Sites $ Contact List</a></li>
+                            <li><a href="/U.html" class="smoothScroll">Machines List</a></li>
+                            <li><a href="/U.html" class="smoothScroll">List of Stocks</a></li>
+                            <li><a href="/U.html" class="smoothScroll">SmS Sending</a></li>
+                            <li><a href="/" class="smoothScroll">logout</a></li>
+                        </ul>
+                    </div>
+        
+                </div>
+            </div>
+  
+    <section id="team" class="parallax-section">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-offset-2 col-md-8 col-sm-12">
+                    <div class="about-info">
+                        <h3><img src="logo.png" alt="V0r1.png" /><strong><em>Team South</em></strong></h3>
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div id="owl-team" class="owl-carousel">
+                    <div class="col-md-4 col-sm-4 item">
+                        <div class="team-item">
+                            <img src="images/team-image1.jpg" class="img-responsive" alt="">
+                            <div class="team-overlay">
+                                <ul class="social-icon">
+                                    <li>
+                                        <a href="#" class="fa fa-twitter"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fa fa-linkedin"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p>Rostopher Den-ey</p>
+                        <h3>Technical Supervisor</h3>
+                        <button class="accordion" style="width: 50%"><em><strong>contact $ E-mail</strong></em></button>
+                        <div class="panel">
+                            <p><strong>Rostopher@dingosmart.com</strong></p>
+                            <p><strong>Mobile# 09255555555</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 item">
+                        <div class="team-item">
+                            <img src="images/team-image2.jpg" class="img-responsive" alt="">
+                            <div class="team-overlay">
+                                <ul class="social-icon">
+                                    <li>
+                                        <a href="#" class="fa fa-instagram"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fa fa-github"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fa fa-facebook"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <br />
+                        <p>Ysrael Roque</p>
+                        <h3>Officer in Charge</h3>
+                        <button class="accordion"><em><strong>sites</strong></em></button>
+                        <div class="panel">
+                            <dl>
+                                <dt>BBC</dt>
+                                <dd>- Sm Bacoor</dd>
+                                <dd>- Sm Molino</dd>
+                                <dd>- V Central</dd>
+                                <dd>- 678</dd>
+                                <dt>NON BBC</dt>
+                                <dd>- Sopisanti</dd>
+                                <dd>- Lotus Mall</dd>
+                                <dd>- V8 Lancaster</dd>
+                                <dd>- Fynn Bacoor</dd>
+                              </dl>
+                        </div>
+
+                        <button class="accordion"><em><strong>contact</strong></em></button>
+                        <div class="panel">
+                            <p><strong>Email: Ysrael@dingosmart.com</strong></p>
+                            <p><strong>Mobile# 09255555555</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 item">
+                        <div class="team-item">
+                            <img src="images/team-image3.jpg" class="img-responsive" alt="">
+                            <div class="team-overlay">
+                                <ul class="social-icon">
+                                    <li>
+                                        <a href="#" class="fa fa-instagram"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fa fa-dribbble"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fa fa-behance"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p>Mark Fulgencio</p>
+                        <h3>Second in Command</h3>
+                        <button class="accordion"><em><strong>sites</strong></em></button>
+                        <div class="panel">
+                            <dl>
+                                <dt>BBC</dt>
+                                <dd>- Sm Bacoor</dd>
+                                <dd>- Sm Molino</dd>
+                                <dd>- V Central</dd>
+                                <dd>- 678</dd>
+                                <dt>NON BBC</dt>
+                                <dd>- Sopisanti</dd>
+                                <dd>- Lotus Mall</dd>
+                                <dd>- V8 Lancaster</dd>
+                                <dd>- Fynn Bacoor</dd>
+                              </dl>
+                        </div>
+
+                        <button class="accordion"><em><strong>contact</strong></em></button>
+                        <div class="panel">
+                            <p><strong>Email: Mark@dingosmart.com</strong></p>
+                            <p><strong>Mobile# 09255555555</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 item">
+                        <div class="team-item">
+                            <img src="images/team-image4.jpg" class="img-responsive" alt="">
+                            <div class="team-overlay">
+                                <ul class="social-icon">
+                                    <li>
+                                        <a href="#" class="fa fa-twitter"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fa fa-facebook"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fa fa-envelope-o"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p>Jade Villanueva</p>
+                        <h3>Computer Technician</h3>
+                        <button class="accordion"><em><strong>sites</strong></em></button>
+                        <div class="panel">
+                            <dl>
+                                <dt>BBC</dt>
+                                <dd>- Sm Bacoor</dd>
+                                <dd>- Sm Molino</dd>
+                                <dd>- V Central</dd>
+                                <dd>- 678</dd>
+                                <dt>NON BBC</dt>
+                                <dd>- Sopisanti</dd>
+                                <dd>- Lotus Mall</dd>
+                                <dd>- V8 Lancaster</dd>
+                                <dd>- Fynn Bacoor</dd>
+                              </dl>
+
+                        </div>
+
+                        <button class="accordion"><em><strong>contact</strong></em></button>
+                        <div class="panel">
+                            <p><strong>Email: Jade@dingosmart.com</strong></p>
+                            <p><strong>Mobile# 09255555555</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 item">
+                        <div class="team-item">
+                            <img src="images/team-image5.jpg" class="img-responsive" alt="">
+                            <div class="team-overlay">
+                                <ul class="social-icon">
+                                    <li>
+                                        <a href="#" class="fa fa-twitter"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fa fa-linkedin"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p>a l o c a r d</p>
+                        <h3>Computer Technician</h3>
+                        <button class="accordion"><em><strong>sites</strong></em></button>
+                        <div class="panel">
+                            <dl>
+                                <dt>BBC</dt>
+                                <dd>- Sm Bacoor</dd>
+                                <dd>- Sm Molino</dd>
+                                <dd>- V Central</dd>
+                                <dd>- 678</dd>
+                                <dt>NON BBC</dt>
+                                <dd>- Sopisanti</dd>
+                                <dd>- Lotus Mall</dd>
+                                <dd>- V8 Lancaster</dd>
+                                <dd>- Fynn Bacoor</dd>
+                              </dl>
+
+                        </div>
+
+                        <button class="accordion"><em><strong>contact</strong></em></button>
+                        <div class="panel">
+                            <p><strong>Email: Ferdinand@dingosmart.com</strong></p>
+                            <p><strong>Mobile# 09255555555</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 item">
+                        <div class="team-item">
+                            <img src="images/team-image6.jpg" class="img-responsive" alt="">
+                            <div class="team-overlay">
+                                <ul class="social-icon">
+                                    <li>
+                                        <a href="#" class="fa fa-twitter"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fa fa-linkedin"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p>Nathan Gutierez</p>
+                        <h3>Computer Technician</h3>
+                        <button class="accordion"><em><strong>sites</strong></em></button>
+                        <div class="panel">
+                            <dl>
+                                <dt>BBC</dt>
+                                <dd>- Sm Bacoor</dd>
+                                <dd>- Sm Molino</dd>
+                                <dd>- V Central</dd>
+                                <dd>- 678</dd>
+                                <dt>NON BBC</dt>
+                                <dd>- Sopisanti</dd>
+                                <dd>- Lotus Mall</dd>
+                                <dd>- V8 Lancaster</dd>
+                                <dd>- Fynn Bacoor</dd>
+                              </dl>
+
+                        </div>
+
+                        <button class="accordion"><em><strong>contact</strong></em></button>
+                        <div class="panel">
+                            <p><strong>Email: Nathan@dingosmart.com</strong></p>
+                            <p><strong>Mobile# 09255555555</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+   
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+
+</body>
+
+</html>
